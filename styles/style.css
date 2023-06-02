@@ -42,6 +42,8 @@ main {
     line-height: 35px;
     box-sizing: border-box;
     align-items: center;
+    max-width: 480px;
+    
 }
 
 audio {
@@ -52,7 +54,7 @@ div {
     display: flex;
     justify-content: flex-start;
     align-items:center;
-    
+    max-width:480px;
     
 }
 
