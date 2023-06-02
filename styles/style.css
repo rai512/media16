@@ -17,6 +17,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 15px;
+    
 }
 
 header {
@@ -30,23 +31,29 @@ header {
     box-sizing: border-box;
     color: white;
     text-shadow: 1px 1px 3px black;
-    
+    min-width: 598px;
     
 }
 
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     line-height: 35px;
     box-sizing: border-box;
+    align-items: center;
+}
+
+audio {
+    padding-top: 20px;
 }
 
 div {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    min-width: 683px;
+    align-items:center;
+    
+    
 }
 
 div > h2 {
