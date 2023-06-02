@@ -1,0 +1,88 @@
+:root {
+    --cordefundo : #FFFFFF;
+    --headercor: #CDF5EF;
+    --textcor: #5863ED;
+    --buttoncolor:#BC2765;
+}
+
+* {
+    margin: 0;  
+    padding: 0;;
+    
+}
+
+body {
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+}
+
+header {
+    display: flex;
+    background-color: var(--headercor);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    vertical-align: middle;
+    word-spacing: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    
+    
+}
+
+main {
+    display: grid;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    min-width: 683px;
+}
+
+div > h2 {
+    color: var(--textcor);
+    text-shadow: 1px 1px 2px var(--textcor);    
+}
+
+main > p {
+    text-shadow: 1px 1px 2px var(--textcor);
+}
+
+
+.material-symbols-outlined {
+    color: var(--textcor);
+    font-size: 33px;
+    padding-bottom: 2px;
+    margin: 8px;
+}
+
+#start-button {
+    background-color: var(--buttoncolor);
+    width: 300px;
+    height: 35px;
+    justify-self: center;
+    font-weight: bold;
+    border-top: 1px solid green;
+    border-bottom: 1.5px solid pink;
+    color: white;
+    text-shadow: 1px 1.5px 0px green;
+}
+
+#start-button:hover {
+    cursor: pointer;
+    background-color: #a8225a;
+}
+
+#start-button:active {
+    transform: scale(0.95);
+}
