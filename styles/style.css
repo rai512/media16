@@ -8,16 +8,12 @@
 * {
     margin: 0;  
     padding: 0;;
-    
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 15px;
-    
+    font-family: 'Share Tech Mono', monospace;
 }
 
 header {
