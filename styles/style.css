@@ -27,8 +27,8 @@ header {
     box-sizing: border-box;
     color: white;
     text-shadow: 1px 1px 3px black;
-    min-width: 598px;
-    
+    height: 100px;
+    width: 100vw;
 }
 
 main {
@@ -37,8 +37,10 @@ main {
     text-align: center;
     line-height: 35px;
     box-sizing: border-box;
+    height: 70vh;
     align-items: center;
-    max-width: 480px;
+    justify-content: center;
+   
     
 }
 
@@ -48,28 +50,72 @@ audio {
 
 div {
     display: flex;
-    justify-content: flex-start;
-    align-items:center;
-    max-width:480px;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
 div > h2 {
     color: var(--textcor);
-    text-shadow: 1px 1px 2px var(--textcor);    
+    text-shadow: 1px 1px 2px var(--textcor);
+    width: 300px;
+    
 }
 
 main > p {
     text-shadow: 1px 1px 2px var(--textcor);
 }
 
+img {
+    width: 300px;
+    height: 250px;
+}
 
-.material-symbols-outlined {
+footer {
+    background-color: var(--headercor);
+    width: 100vw;
+    height: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 1.5px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer i {
+    margin-left: 10px;;
+    background: -webkit-linear-gradient(90deg, orange, purple);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+.estrelinha {
     color: var(--textcor);
     font-size: 33px;
     padding-bottom: 2px;
     margin: 8px;
 }
+
+#container-main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cat {
+    display: flex;
+    width: 500px;
+    gap: 0px;
+}
+
 
 #start-button {
     background-color: var(--buttoncolor);
